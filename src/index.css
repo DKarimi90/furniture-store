@@ -22,18 +22,21 @@
 .home {
   text-align: center;
 }
+.furniture {
+  width: 70%; 
+}
 .furniture:hover {
   box-shadow: 1px 3px 5px black;
 }
 .furniture img {
-  width: 150px; 
-  height: 150px; 
-  margin: 10px; 
+  width: 100px; 
+  height: 100px; 
+  margin: 5px; 
   border-radius: 50%;
 }
 .furniture-list {
  display: grid; 
- grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+ grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); 
 }
 .furniture-display img {
   width: 300px; 
