@@ -8,6 +8,7 @@ function FurnitureList( {furniture} ) {
             <div className='furniture' key = {item.id}>
                 <Link to={`/furniture/${item.id}`}>
                 <img src = {item.url} alt ="furniture" />
+                <p>{item.signage}</p>
                 </Link>
             </div>
         ))}

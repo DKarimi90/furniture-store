@@ -12,6 +12,7 @@ function App() {
   return (
     <Router>
     <div className="App">
+      <h6>Welcome to Day Vees Furniture Store</h6>
       <NavBar />
       <div className='nav-items'>
         <Routes>
