@@ -74,14 +74,17 @@
   height: 1000px; 
 }
 .footer p {
-  color: brown; 
+  color: black; 
 }
 h6{
   text-align: center; 
-  color: brown; 
+  color: black; 
   margin-bottom: 0; 
 }
 .furniture a {
   text-decoration: none;
-  color: brown; 
+  color: black; 
+}
+.footer p {
+  font-size: 8px; 
 }
