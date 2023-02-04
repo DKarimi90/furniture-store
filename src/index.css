@@ -42,10 +42,11 @@
   box-shadow: 1px 3px 5px black;
 }
 .furniture img {
-  width: 100px; 
-  height: 100px; 
+  width: 165px; 
+  height: 160px; 
   margin: 5px; 
-  border-radius: 50%;
+  border-radius: 5%;
+  box-shadow: 1px 2px 4px black;
 }
 .furniture-list {
  display: grid; 
