@@ -21,7 +21,7 @@ function FurnitureDetails() {
                 <Link to="/" style = {{
                   color: "tomato",
                   textDecoration: "none"
-                }}>Back</Link>
+                }}>back</Link>
                 </div>
             </div>}
         {error && <div>{error}</div>}
