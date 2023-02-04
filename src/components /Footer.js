@@ -18,7 +18,11 @@ function Footer() {
           </p>
         </div>
         <div>
-          <p>Contacts: 254113312554</p>
+          <p>
+          <Link to ="/contact">
+             Contacts
+          </Link>
+          </p>
           <p>Socials</p>
         </div>
     </div>
