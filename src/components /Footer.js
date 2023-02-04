@@ -10,7 +10,7 @@ function Footer() {
         <div>
         <p>Privacy Policy</p>
         <p >
-          <Link to = "/about">About</Link>
+          <Link to = "/about">Visit About</Link>
           </p>
         </div>
         <div>
