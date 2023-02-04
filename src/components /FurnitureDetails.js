@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom'
 
 function FurnitureDetails() {
     const {id} = useParams()
-    const {furniture, isPending, error } = useFetch(`https://json-server-m8mg595x9-dkarimi90.vercel.app/furniture/` + id)
+    const {furniture, isPending, error } = useFetch(`https://new-json-server.vercel.app/furniture/` + id)
   return (
     <div className='furniture-data'>
         {isPending && <div>Loading...</div>}

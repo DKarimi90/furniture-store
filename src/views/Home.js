@@ -4,7 +4,7 @@ import useFetch from '../useFetch'
 
 function Home() {
 
-  const {furniture, isPending, error } = useFetch("https://json-server-m8mg595x9-dkarimi90.vercel.app/furniture")  
+  const {furniture, isPending, error } = useFetch("https://new-json-server.vercel.app/furniture")  
 
 
     
