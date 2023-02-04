@@ -6,9 +6,9 @@ function FurnitureList( {furniture} ) {
     <div className='furniture-list'>
         {furniture.map((item) => (
             <div className='furniture' key = {item.id}>
+                <Link to={`/furniture/${item.id}`}>
                 <img src = {item.url} alt ="furniture" />
                 <p>{item.signage}</p>
-                <Link to={`/furniture/${item.id}`}>
                   <p style = {{
                     fontSize: "10px"
                   }}>more...</p>
