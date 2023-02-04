@@ -9,14 +9,9 @@ function FurnitureList( {furniture} ) {
                 <Link to={`/furniture/${item.id}`}>
                 <img src = {item.url} alt ="furniture" />
                 <p style = {{
-                  textAlign: "center"
+                  textAlign: "center",
+                  marginLeft: "25px"
                 }}>{item.signage}</p>
-                  <p style = {{
-                    fontSize: "10px", 
-                    textAlign: "center"
-              
-                    
-                  }}>more...</p>
                 </Link>
             </div>
         ))}
