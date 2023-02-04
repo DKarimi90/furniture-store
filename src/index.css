@@ -103,3 +103,8 @@ h6{
 .footer p {
   font-size: 8px; 
 }
+
+p a {
+  text-decoration: none;
+  color: black; 
+}
